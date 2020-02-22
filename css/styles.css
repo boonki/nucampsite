@@ -73,3 +73,9 @@ header h2 {
 .bottomlink {
     color: papayawhip;
 }
+
+#courselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
