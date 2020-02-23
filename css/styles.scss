@@ -1,0 +1,90 @@
+$color-primary: #3046C5;
+$color-secondary: #5637dd;
+$color-pale: #CEC8FF;
+$color-mid: #901CAD;
+$color-dark: #60106b;
+$color-transparent-black: rgba(0, 0, 0, 0.5);
+
+body {
+    font-family: "Lobster", sans-serif;
+    background-color: papayawhip;
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", sans-serif;
+    color: papayawhip;
+}
+
+h2 {
+    color: olivedrab;
+}
+
+header {
+    h2 {
+        color: $color-pale;
+    } 
+}
+
+.site-footer {
+    background-image: linear-gradient(darkgoldenrod, papayawhip);
+    padding: 20px 0;
+    color: papayawhip;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background: rgb(62,117,11);
+    background: linear-gradient(90deg, rgba(62,117,11,1) 0%, rgba(181,158,9,1) 45%, rgba(95,81,7,1) 100%);
+    color: papayawhip;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: darkgoldenrod;
+}
+
+.li  {
+    color: papayawhip;
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: papayawhip;
+}
+
+.carousel {
+    border: solid goldenrod;
+}
+
+.button {
+    background-color: goldenrod;
+
+}
+
+.card-header {
+    background-color: olivedrab;
+    color: papayawhip;
+}
+
+.card-body {
+    background-color: burlywood;
+    color: olivedrab;
+}
+.btn {
+    color: papayawhip;
+}
+
+.bottomlink {
+    color: papayawhip;
+}
+
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
